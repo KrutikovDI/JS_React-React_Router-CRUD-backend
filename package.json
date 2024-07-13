@@ -1,0 +1,28 @@
+{
+  "name": "ahj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "coursar",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "koa-combine-routers": "^4.0.2"
+  }
+}
